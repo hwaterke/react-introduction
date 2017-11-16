@@ -1,6 +1,6 @@
-import React from 'react';
-import {BoxContainer} from './BoxContainer';
-import {Header} from './Header';
+import React from 'react'
+import {BoxContainer} from './BoxContainer'
+import {Header} from './Header'
 
 export class App extends React.Component {
   render() {
@@ -13,6 +13,6 @@ export class App extends React.Component {
           <BoxContainer title="Last box" />
         </div>
       </div>
-    );
+    )
   }
 }

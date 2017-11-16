@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import React from 'react';
+import PropTypes from 'prop-types'
+import React from 'react'
 
 export const Box = ({title, counter, inc, dec}) => (
   <div>
@@ -10,15 +10,15 @@ export const Box = ({title, counter, inc, dec}) => (
       <button onClick={inc}>+</button>
     </div>
   </div>
-);
+)
 
 Box.propTypes = {
   title: PropTypes.string,
   counter: PropTypes.number.isRequired,
   dec: PropTypes.func.isRequired,
   inc: PropTypes.func.isRequired
-};
+}
 
 Box.defaultProps = {
   title: 'Title'
-};
+}
