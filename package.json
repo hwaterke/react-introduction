@@ -5,13 +5,15 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "format": "prettier --single-quote --bracket-spacing=false --write 'src/**/*.js'",
+    "format": "prettier --single-quote --bracket-spacing=false --print-width 60 --write 'src/**/*.js'",
     "precommit": "lint-staged"
   },
   "dependencies": {
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17"
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.4.0",
@@ -21,7 +23,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write --single-quote --bracket-spacing=false",
+      "prettier --write --single-quote --bracket-spacing=false --print-width 60",
       "eslint --max-warnings 1",
       "git add"
     ]

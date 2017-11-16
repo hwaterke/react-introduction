@@ -2,4 +2,42 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #fafafa;
+}
+
+header {
+  background-color: #7647BC;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+header button {
+  display: block;
+  margin: 0 auto;
+  padding: .5rem 2rem;
+  border-radius: 0;
+  border: 0;
+  background-color: #9369D0;
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 800px;
+  list-style-type: none;
+}
+
+li {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #7647BC;
+  color: white;
+}
+
+li.completed {
+  text-decoration: line-through;
+  background-color: gray;
 }
