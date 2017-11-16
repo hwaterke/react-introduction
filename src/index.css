@@ -12,15 +12,22 @@ header {
   color: white;
 }
 
-.boxes {
-  margin: 2rem auto;
-  display: flex;
+.boxes > div {
+  margin: 1rem;
+  border: 2px solid #3B3B3B;
+  background-color: #fff;
 }
 
-.boxes > div {
-  flex: 1 1 50%;
-  margin: 0 2rem;
-  border: 2px solid #3B3B3B;
+@media screen and (min-width: 769px) {
+  .boxes {
+    margin: 2rem auto;
+    display: flex;
+  }
+
+  .boxes > div {
+    flex: 1 1 50%;
+    margin: 0 2rem;
+  }
 }
 
 .boxes > div > h1 {
