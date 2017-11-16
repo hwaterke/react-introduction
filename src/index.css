@@ -8,8 +8,14 @@ body {
 header {
   background-color: #80CBC4;
   text-align: center;
-  padding: 20px;
+  padding: 1px;
   color: white;
+}
+
+@media screen and (min-width: 769px) {
+  header {
+    padding: 1.5rem;
+  }
 }
 
 .boxes > div {
