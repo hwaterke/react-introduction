@@ -16,6 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Introduce React application code
 * Problem of passing toggle down to TodoList
 * Connect redux
+    * Provider
     * toggle to Todo
     * todos to TodoList
 * DevTools
