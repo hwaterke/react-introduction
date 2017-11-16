@@ -1,0 +1,29 @@
+{
+  "name": "react-introduction",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "format": "prettier --single-quote --bracket-spacing=false --write 'src/**/*.js'",
+    "precommit": "lint-staged"
+  },
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-scripts": "1.0.17"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.4.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^5.0.0",
+    "prettier": "^1.8.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write --single-quote --bracket-spacing=false",
+      "eslint --max-warnings 1",
+      "git add"
+    ]
+  }
+}
