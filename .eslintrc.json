@@ -17,7 +17,7 @@
     "react/no-typos": "warn",
     "react/no-unused-prop-types": "warn",
     "react/no-will-update-set-state": "error",
-    "react/prop-types": "error",
+    "react/prop-types": "off",
     "react/void-dom-elements-no-children": "error",
     "linebreak-style": [
       "error",
