@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import React from 'react';
 
 export const Todo = ({todo, toggle}) => (
@@ -9,12 +8,3 @@ export const Todo = ({todo, toggle}) => (
     {todo.content}
   </li>
 );
-
-Todo.propTypes = {
-  todo: PropTypes.shape({
-    uuid: PropTypes.number.isRequired,
-    content: PropTypes.string.isRequired,
-    completed: PropTypes.bool
-  }).isRequired,
-  toggle: PropTypes.func.isRequired
-};
